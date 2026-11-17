@@ -1,0 +1,32 @@
+{
+  "source": "Two supplied historical research notebooks and supplied manuscript title page",
+  "authors": [
+    "George Owusu Amoah",
+    "Rubayet Bin Mostafiz",
+    "Rachel Olawoyin",
+    "Francis Quayson"
+  ],
+  "static_python_scripts_parsed": 8,
+  "notebooks": [
+    {
+      "file": "02_mdas_final_validation.ipynb",
+      "code_cells": 12,
+      "saved_output_cells": 0
+    },
+    {
+      "file": "01_mdas_historical_analysis.ipynb",
+      "code_cells": 46,
+      "saved_output_cells": 0
+    }
+  ],
+  "unittest_returncode": 0,
+  "unittest_output": "test_bicubic_reference_with_align_corners_false (test_interpolation_source.TestStep41CSource.test_bicubic_reference_with_align_corners_false) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.013s\n\nOK",
+  "potential_credential_patterns_found": 0,
+  "unexpected_email_addresses_found": 0,
+  "numerical_experiments_rerun": false,
+  "independent_code_execution_verified": false,
+  "licenses_verified": false,
+  "author_credit_roles_verified": false,
+  "publication_doi_assigned": false,
+  "zenodo_doi_assigned": false
+}

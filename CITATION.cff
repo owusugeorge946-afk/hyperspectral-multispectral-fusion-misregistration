@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research-code archive, please cite this repository and
+  the associated manuscript when its publication details become available.
+type: software
+title: "Hyperspectral–Multispectral Fusion Under Misregistration: Research Code"
+authors:
+  - family-names: Amoah
+    given-names: George Owusu
+    affiliation: "Department of Geography and Regional Planning, University of Cape Coast, Ghana"
+  - family-names: Mostafiz
+    given-names: Rubayet Bin
+    affiliation: "LaHouse Research & Education Center, Louisiana State University Agricultural Center, USA"
+  - family-names: Olawoyin
+    given-names: Rachel
+    affiliation: "Department of Geography and Regional Planning, University of Cape Coast, Ghana"
+  - family-names: Quayson
+    given-names: Francis
+    affiliation: "The Hong Kong Polytechnic University, Hong Kong, China"

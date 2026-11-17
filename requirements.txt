@@ -1,0 +1,17 @@
+# Directly imported dependencies across archived analytical notebooks.
+# Versions are not pinned because the historical environment lockfile was not provided.
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+scikit-image
+opencv-python-headless
+torch
+torchvision
+timm
+tifffile
+rasterio
+Pillow
+seaborn
+PyYAML
