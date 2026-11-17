@@ -7,7 +7,7 @@ This file documents items requiring a decision or evidence from the authors. It 
 - Obtain approval from all four listed coauthors for public repository release, author names and order, affiliations and citation metadata.
 - Obtain agreement on CRediT contributions for the journal manuscript separately. Contribution roles are not inferred from names or file ownership.
 - Verify which code is original and which derives from upstream SCSRNet or other packages. Check source licenses before redistributing any material.
-- Select a software license **only after** confirming rights and coauthor approval. Until then, the archive does not grant an open-source license.
+- A repository-level MIT LICENSE and upstream SCSRNet attribution have been added. Confirm all contributors' rights and coauthor approval before changing visibility; the license does not cover third-party data or materials.
 - Do not publish raw MDAS/EnMAP imagery or checkpoints unless their redistribution terms explicitly permit this.
 
 ## Reproducibility
@@ -20,8 +20,8 @@ This file documents items requiring a decision or evidence from the authors. It 
 ## GitHub and Zenodo
 
 - Review every file in the planned commit; do not add any `.env`, source imagery, weight files or private inputs.
-- Create a GitHub repository and commit the audited files. The code has not been uploaded by this package preparation.
-- After an approved public release, tag an immutable version (e.g. `v1.0.0`) and make a GitHub Release.
+- The private GitHub repository is created and the audited files have been committed. Verify the current `main` branch before any release.
+- The proposed first release is `v1.0.0`; use [`RELEASE_NOTES_v1.0.0.md`](RELEASE_NOTES_v1.0.0.md) as the GitHub Release description. Only publish publicly after approvals and third-party checks.
 - If Zenodo is enabled for the repository, archive that release and use the **actual** Zenodo DOI returned by Zenodo.
 - Add that verified DOI to `CITATION.cff` and the manuscript's Code and Data Availability section only after deposition. Publish any subsequent DOI changes in a new release if necessary.
 - Ensure the submitted paper, GitHub citation and Zenodo authorship metadata agree.
