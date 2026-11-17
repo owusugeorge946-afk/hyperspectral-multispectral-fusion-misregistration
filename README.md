@@ -70,13 +70,13 @@ SCSRNet uses bicubic upsampling for 24→72 spatial resolution. The historical S
 
 This repository is an **archival source snapshot**, not an independently reproduced package. Before a public GitHub or Zenodo release, use [`docs/PUBLIC_RELEASE_CHECKLIST.md`](docs/PUBLIC_RELEASE_CHECKLIST.md). The reproducible checks in `tests/` cover syntax, preserved static code contracts, notebook output stripping, and metadata completeness; they do not rerun the scientific analyses.
 
-No software license, journal publication DOI, GitHub release URL, or Zenodo DOI is asserted. Do not cite a DOI until it exists. A future Zenodo archived release should use the **exact released commit and version** rather than treating the editable default branch as an immutable reference.
+No journal publication DOI, GitHub release URL, or Zenodo DOI is asserted. Do not cite a DOI until it exists. A future Zenodo archived release should use the **exact released commit and version** rather than treating the editable default branch as an immutable reference.
 
 ## Source attribution and availability
 
-Source-code snapshots in this package were extracted from the two author-supplied notebooks. Third-party data, trained checkpoint files and upstream source repositories are **not** included. The original SCSRNet repository referenced by the historical notebook is [zsspo/SCSRNet](https://github.com/zsspo/SCSRNet). Consult its licensing terms before copying or redistributing code or model weights.
+Source-code snapshots in this package were extracted from the two author-supplied notebooks. Third-party data, trained checkpoint files and upstream source repositories are **not** included. The original SCSRNet repository referenced by the historical notebook is [zsspo/SCSRNet](https://github.com/zsspo/SCSRNet). Its upstream code is available under the MIT License; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the original copyright notice and license text. Dataset and model-weight terms must be checked separately.
 
-**Licensing:** This repository currently has **no LICENSE file** and does not grant an open-source license. Obtain coauthor agreement and confirm ownership and compatibility with the upstream SCSRNet terms before assigning a license. A public GitHub repository is not automatically open-source.
+**Licensing:** Original repository code and documentation are released under the [MIT License](LICENSE), subject to the rights of their respective authors. SCSRNet-derived materials retain the original upstream MIT notice in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This repository's MIT license does not cover third-party imagery, model weights, or materials for which the contributors lack relicensing rights. Coauthor approval and any additional source-ownership checks remain necessary before public release.
 
 **Research integrity:** The included schematic figures and code are not independent validation of results. This archive does not claim a successful independent fusion-model transfer to Potsdam. The post hoc bias-omission analysis must remain identified as exploratory.
 
